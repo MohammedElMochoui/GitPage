@@ -2,6 +2,7 @@ body {
     font-family: monospace;
     font-size: large;
     font-weight: bold;
+    text-align: center;
 }
 
 h1 {
@@ -10,3 +11,7 @@ h1 {
     border: 9px dotted rebeccapurple;
 }
 
+.cs50-link{
+    text-align: center;
+    font-size: xx-large;
+}
