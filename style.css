@@ -1,7 +1,30 @@
+.succes, .neutral, .fail {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
 body {
   background-color: red; }
 
 h1 {
   color: purple; }
+
+div span {
+  color: purple; }
+
+span {
+  color: blue; }
+
+.succes {
+  background-color: lightseagreen; }
+
+.neutral {
+  background-color: lightgray; }
+
+.fail {
+  background-color: lightcoral; }
 
 /*# sourceMappingURL=style.css.map */

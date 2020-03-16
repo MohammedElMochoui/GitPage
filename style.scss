@@ -1,6 +1,15 @@
 $background-color: red;
 $text-color: purple;
 
+%message { 
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
 body {
     background-color: $background-color;
 }
@@ -8,3 +17,27 @@ body {
 h1 {
     color:$text-color;
 }
+
+div { 
+    span { 
+        color: $text-color;
+    }
+}
+
+span { 
+    color: blue;
+}
+
+.succes {
+    @extend %message;
+    background-color: lightseagreen;
+}
+.neutral {
+    @extend %message;
+    background-color: lightgray;
+}
+.fail {
+    @extend %message;
+    background-color: lightcoral;
+}
+
