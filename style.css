@@ -1,3 +1,28 @@
+@media print {
+
+    .screen-only {
+        display: none;
+    }
+}
+
+@media (min-width: 500px){
+    body{
+        background-color: plum;
+    }
+
+    #headline::after {
+        content: "with Python and JavaScript";
+    }
+}
+
+@media (max-width: 499px){
+    body{
+        background-color: royalblue;
+    }
+}
+
+
+
 body {
     font-family: monospace;
     font-size: large;
